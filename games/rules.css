@@ -1,0 +1,39 @@
+.content{
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+form h1{
+    font-family: 'Bungee Shade';
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    margin: 0 0;
+}
+p{
+    font-family: 'Bangers';
+    color: white;
+    font-size: 200%;
+    margin: 30px;
+
+}
+
+form button{
+    background-color: #3c496b;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 30px;
+    width: 30%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: 'Bangers';
+    padding: 15px 15px;
+    outline: none;
+    margin: 20px 35%;
+}
+
+form button:hover{
+    background-color: #8bd08b;
+}

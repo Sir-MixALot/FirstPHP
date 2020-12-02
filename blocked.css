@@ -1,0 +1,14 @@
+.message{
+    font-family:'Bungee Shade';
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 5px solid #ff3131;
+    border-radius: 20px; 
+}
+
+.content{
+    margin-top: 100px;
+    width: 40%;
+}

@@ -1,0 +1,71 @@
+
+.tetris{
+    width: 85%;
+    display: block;
+    margin: auto;
+    padding-top: 10px
+}
+
+.asteroids{
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    padding: 18% 0
+}
+
+#asteroids{
+    margin-left: 35%;
+}
+
+
+.FlappyBird{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.snake{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.col-1-3{
+    width: 30%;
+    float: left;
+    font-family:'Bungee Shade';
+    margin: 1.5%;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border:1px solid; 
+    transition:.2s all; 
+   
+}
+
+.content .col-1-3{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+
+  .content:hover .col-1-3:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
+
+.col-1-3 p{
+    color: white;
+    font-size: 180%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 7%;
+    
+}  
+a{
+    text-decoration: none;
+}
+

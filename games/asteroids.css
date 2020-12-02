@@ -1,0 +1,96 @@
+.content{
+    background: rgba(0, 0, 0, 0.8);
+    width: 90%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+}
+
+canvas{
+    margin: 30px auto;
+    border: 2px solid white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Bungee Shade';
+}
+
+form{
+  margin-left: 3%; 
+}
+
+form button{
+  background-color: #0b162c;
+  text-align: center;
+  color: white;
+  border: none;
+  font-size: 30px;
+  width: 30%;
+  transition-duration: 0.4s;
+  display: inline-block;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  font-family: 'Bangers';
+  padding: 15px 15px;
+  outline: none;
+  margin-left: 15px;
+}
+
+
+#score{
+    color: white;
+    font-family: 'Bungee Shade';
+}
+
+#button1:hover{
+  background-color: #7c6cff;
+}
+
+#button2:hover{
+  background-color: #fdc22a;
+}
+
+#button3:hover{
+  background-color: #8d288e;
+}
+
+.but1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .but1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .but1:hover span {
+    padding-right: 25px;
+  }
+  
+  .but1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.but1:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }

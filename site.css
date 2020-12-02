@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    background-image: url('img/bg.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+h1{
+    font-family: 'Bungee Shade';
+    text-align:  center;
+    color: white;
+    font-size: 100px;
+}
+
+.but1 {
+    background-color: #eb1b7d;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 30px;
+    width: 20%;
+    transition-duration: 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Bangers';
+    padding: 15px 13px;
+    margin-left: 40%;
+    outline: none;
+}
+
+.but1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .but1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .but1:hover span {
+    padding-right: 25px;
+  }
+  
+  .but1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.but1:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+
+.but2 {
+    background-color: #00adef;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 30px;
+    width: 20%;
+    transition-duration: 0.4s;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Bangers';
+    padding: 15px 13px;
+    margin-top: 1.5%;
+    margin-left: 40%;
+    outline: none;
+}
+
+.but2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.but2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.but2:hover span {
+  padding-right: 25px;
+}
+
+.but2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.but2:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}

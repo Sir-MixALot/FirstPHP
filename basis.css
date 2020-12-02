@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    background-image: url('img/bg.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+.header {
+    background: rgba(0, 0, 0, 0.8);
+    width: 70%;
+    margin: 0 auto;
+    display: flex; 
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 160px;
+    margin-top: 10px;
+
+}
+
+.profile p{
+    color: white;
+    font-family: 'Bangers';
+    font-size: 200%;
+    margin-left: 50px;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+.content {
+    width: 85%;
+    padding-top: 20px;
+    margin: 20px auto 0 auto;
+} 
+
+.header h1{
+    margin: 0;
+    font-family: 'Bungee Shade';
+    font-size: 280%;
+    margin-left: 5%;
+    display: inline-block;
+    position: relative;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    position: relative;
+
+}
+
+.header h1:hover{
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 40%, #000 60%, rgba(0,0,0,.6) 70%);
+    -webkit-mask-size: 200%;
+    animation: shine 3s infinite;
+}
+
+@-webkit-keyframes shine{
+    from{
+        -webkit-mask-position: 150%;
+    }
+    to{
+        -webkit-mask-position: -80%;
+    }
+}
+
+.logout {
+    background-color: #3c496b;
+    text-align: center;
+    color: white;
+    border: none;
+    font-size: 30px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    font-family: 'Bangers';
+    padding: 7px 40px;
+    margin: 27px 20px;
+    outline: none;
+    border-radius: 25px;
+}
+
+.logout:hover{
+    
+    background-color: #eb1b7d;
+}
+  .acc:hover{
+    color: #eb1b7d
+}
+
+#about:hover{
+    background-color: #7c6cff;
+}
